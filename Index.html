@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 id="myH"></h1>
+    <p id="myP"></p>
+
+    <h1>Javascript Variables</h1>
+    <h3>sum of 2 numbers</h3>
+    <p id="sum"></p>
+
+    <h1>Subtraction</h1>
+    <h3>Subtraction of 2 numbers</h3>
+    <p id="sub"></p>
+
+    <h1>Multiplication</h1>
+    <h3>Multiplication of 2 numbers</h3>
+    <p id="mult"></p>
+
+    <h1>Division</h1>
+    <h3>Division of 2 numbers</h3>
+    <p id="div"></p>
+
+    <script>
+      document.getElementById("myH").innerHTML = "Intro to HTML";
+      document.getElementById("myP").innerHTML =
+        "this is the First Time I am doing JS code";
+      var x, y, sum, sub, mult, div;
+      x = 5;
+      y = 5;
+      sum = x + y;
+      sub = x - y;
+      mult = x * y;
+      div = x / y;
+      document.getElementById("sum").innerHTML = `বাবা ${sum} টাকা দাও`;
+      document.getElementById("sub").innerHTML = `বাবা ${sub} টাকা দাও`;
+      document.getElementById("mult").innerHTML = `বাবা ${mult} টাকা দাও`;
+      document.getElementById("div").innerHTML = `বাবা ${div} টাকা দাও`;
+    </script>
+  </body>
+</html>
