@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Operators</title>
+    <link
+      href="https://fonts.cdnfonts.com/css/trashcinema-bb"
+      rel="stylesheet"
+    />
+
+    <link href="https://fonts.cdnfonts.com/css/sikakusimeng" rel="stylesheet" />
+    <link href="https://fonts.cdnfonts.com/css/pic0" rel="stylesheet" />
+    <link href="https://fonts.cdnfonts.com/css/brixton" rel="stylesheet" />
+    <link href="https://fonts.cdnfonts.com/css/good-timing" rel="stylesheet" />
+
+    <style>
+      h1 {
+        font-family: TrashCinema BB;
+      }
+      h2 {
+        font-family: Pic0;
+      }
+      h3 {
+        font-family: Brixton;
+      }
+    </style>
+  </head>
+  <body
+    style="background-color: beige; font-weight: lighter; text-align: center"
+  >
+    <div style="display: flex; flex-direction: column; justify-content: center">
+      <h1 id="myH"></h1>
+      <h4 id="myP" style="font-family: Good Timing; font-size: 28px"></h4>
+
+      <h1>Math Wizard's Spell 🧙✨⚡</h1>
+      <h2>Addition of 2 Numbers</h2>
+      <h3 id="sum"></h3>
+
+      <h1>Vanishing Act 🎩🐰💨</h1>
+      <h2>Subtraction of 2 numbers</h2>
+      <h3 id="sub"></h3>
+
+      <h1>Ultra Math Explosion 💥🔢🔥</h1>
+      <h2>Multiplication of 2 numbers</h2>
+      <h3 id="mult"></h3>
+
+      <h1>Fractionator 3000 🤖⚔️</h1>
+      <h2>Division of 2 numbers</h2>
+      <h3 id="div"></h3>
+    </div>
+
+    <script>
+      document.getElementById("myH").innerHTML = "Intro to HTML";
+      document.getElementById("myP").innerHTML =
+        "There Are Some Addition, Subtraction, Multiplication and Divion of Numbers in the Following Section";
+      var x, y, sum, sub, mult, div;
+      a = 7342;
+      b = 5156;
+      c = 9027;
+      d = 4651;
+      e = 8234;
+      f = 2908;
+      g = 1539;
+      h = 7460;
+
+      sum = a + b;
+      sub = c - d;
+      mult = e * f;
+      div = g / h;
+      document.getElementById(
+        "sum"
+      ).innerHTML = `Sum of 7342 and 5156 is ${sum}`;
+      document.getElementById(
+        "sub"
+      ).innerHTML = `4651 Subtracted From 9027 is ${sub}`;
+      document.getElementById(
+        "mult"
+      ).innerHTML = `8234 Multiplied by 2908 is ${mult}`;
+      document.getElementById(
+        "div"
+      ).innerHTML = `1539 Divided by 7460 is mark ${div}`;
+    </script>
+  </body>
+</html>
